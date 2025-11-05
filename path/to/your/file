@@ -1,0 +1,13 @@
+Resumen:
+- Añade index_v2.html con diseño responsive: hero slideshow (fondo), navegación adaptativa, secciones (Quiénes somos, Servicios, Galería, Avisos, Voluntariado, Contacto) y galería que abre imágenes en una lightbox con navegación por teclado.
+- Añade style_v2.css con la nueva paleta y ajustes visuales.
+- Actualiza el teléfono de contacto a 647400438 (tel:+34647400438).
+
+Notas:
+- Asegúrate de que la carpeta /images contiene las imágenes referenciadas: hero1.jpg, hero2.jpg, equipo.jpg, foto1.jpg, foto2.jpg, logo.png.
+- Optimiza las imágenes para web (Squoosh, TinyPNG o similar).
+
+Checklist para reviewers:
+- [ ] Revisar que las rutas de imagen en /images coincidan con los nombres usados en index_v2.html y en el array heroImages del script.
+- [ ] Probar la galería y la lightbox en móvil y escritorio.
+- [ ] Comprobar accesibilidad básica (contraste, navegación por teclado).
