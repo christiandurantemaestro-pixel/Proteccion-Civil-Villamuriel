@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Protección Civil Villamuriel de Cerrato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <img src="images/logo.png" alt="Logo Protección Civil Villamuriel" class="logo">
+      <h1 class="sr-only">Protección Civil Villamuriel de Cerrato</h1>
+      <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false">☰</button>
+      <nav id="main-nav" class="main-nav">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#quienes">Quiénes somos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#avisos">Avisos</a></li>
+          <li><a href="#voluntariado">Voluntariado</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO / SLIDESHOW -->
+  <section id="inicio" class="hero" aria-label="Inicio">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h2 id="hero-title">Voluntarios al servicio de Villamuriel de Cerrato</h2>
+      <p id="hero-sub">Comprometidos con la seguridad, la prevención y la ayuda ciudadana.</p>
+      <a href="#voluntariado" class="btn">Únete al equipo</a>
+    </div>
+    <div class="hero-controls" aria-hidden="true">
+      <button id="prev-hero">‹</button>
+      <button id="next-hero">›</button>
+    </div>
+  </section>
+
+  <!-- QUIÉNES SOMOS -->
+  <section id="quienes" class="section container">
+    <div class="grid">
+      <div>
+        <h2>Quiénes somos</h2>
+        <p>La Agrupación de Voluntarios de Protección Civil de Villamuriel de Cerrato forma parte del sistema de Protección Civil de Castilla y León. Nuestro equipo está formado por voluntarios comprometidos con la seguridad, la prevención y la asistencia en emergencias.</p>
+        <p><a href="#contacto" class="link">Contacta con nosotros para más información</a></p>
+      </div>
+      <div>
+        <img src="images/equipo.jpg" alt="Equipo de Protección Civil" class="responsive-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="section alt">
+    <div class="container">
+      <h2>Servicios y actividades</h2>
+      <ul class="services">
+        <li>🚒 Apoyo en emergencias (incendios, inundaciones, accidentes).</li>
+        <li>🚧 Prevención y cobertura en eventos públicos.</li>
+        <li>🏫 Formación en autoprotección y primeros auxilios.</li>
+        <li>🤝 Colaboración con Policía Local, Bomberos y 112.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section id="galeria" class="section container">
+    <h2>Galería</h2>
+    <p>Haz clic en una imagen para verla a tamaño completo.</p>
+    <div id="gallery" class="gallery">
+      <!-- Asegúrate de que los nombres de archivo existen en /images -->
+      <img src="images/equipo.jpg" alt="Equipo" data-index="0" loading="lazy">
+      <img src="images/foto1.jpg" alt="Foto 1" data-index="1" loading="lazy">
+      <img src="images/foto2.jpg" alt="Foto 2" data-index="2" loading="lazy">
+      <img src="images/recorte1.jpg" alt="Recorte 1" data-index="3" loading="lazy">
+      <img src="images/recorte2.jpg" alt="Recorte 2" data-index="4" loading="lazy">
+    </div>
+    <p class="muted">Si alguna imagen no aparece, sube el archivo a la carpeta images o ajusta el nombre en el HTML/JS.</p>
+  </section>
+
+  <!-- AVISOS -->
+  <section id="avisos" class="section">
+    <div class="container">
+      <h2>Avisos y noticias</h2>
+      <article>
+        <h3>Campaña de invierno 2025</h3>
+        <p>Recordamos la importancia de revisar el estado de los vehículos y seguir las recomendaciones ante heladas o nevadas.</p>
+      </article>
+      <article>
+        <h3>Formación en primeros auxilios</h3>
+        <p>El próximo curso gratuito de primeros auxilios se celebrará el 20 de noviembre en el Centro Cultural Jesús Meneses.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- VOLUNTARIADO -->
+  <section id="voluntariado" class="section alt">
+    <div class="container">
+      <h2>Hazte voluntario</h2>
+      <p>Si tienes vocación de servicio y quieres formar parte de nuestro equipo, contacta con nosotros. La formación es gratuita y continua.</p>
+      <a href="#contacto" class="btn">Quiero inscribirme</a>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section container">
+    <h2>Contacto</h2>
+    <p>📍 Villamuriel de Cerrato (Palencia, Castilla y León)</p>
+    <p>📧 <a href="mailto:proteccioncivil@villamuriel.es">proteccioncivil@villamuriel.es</a></p>
+    <p>📞 <a href="tel:+34979770000">979 77 00 00</a></p>
+    <iframe
+      src="https://www.google.com/maps?q=Villamuriel+de+Cerrato,+Palencia&output=embed"
+      width="100%" height="250" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Protección Civil Villamuriel de Cerrato - Sitio web oficial</p>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX / SLIDESHOW SCRIPTS -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lb-close" aria-label="Cerrar">✕</button>
+    <button class="lb-prev" aria-label="Anterior">‹</button>
+    <div class="lb-image-wrap">
+      <img id="lb-image" src="" alt="">
+      <p id="lb-caption" class="lb-caption"></p>
+    </div>
+    <button class="lb-next" aria-label="Siguiente">›</button>
+  </div>
+
+  <script>
+    // --- HERO SLIDESHOW (fondo) ---
+    const hero = document.querySelector('.hero');
+    // Cambia estos nombres por las imágenes que tengas en /images
+    const heroImages = [
+      'images/hero1.jpg',
+      'images/hero2.jpg',
+      'images/equipo.jpg'
+    ];
+    let currentHero = 0;
+    function setHero(idx){
+      hero.style.backgroundImage = `url("${heroImages[idx]}")`;
+    }
+    function nextHero(){
+      currentHero = (currentHero + 1) % heroImages.length;
+      setHero(currentHero);
+    }
+    function prevHero(){
+      currentHero = (currentHero - 1 + heroImages.length) % heroImages.length;
+      setHero(currentHero);
+    }
+    // autoplay
+    setHero(0);
+    const heroInterval = setInterval(nextHero, 6000); // cambia cada 6s
+    document.getElementById('next-hero').addEventListener('click', () => { nextHero(); clearInterval(heroInterval); });
+    document.getElementById('prev-hero').addEventListener('click', () => { prevHero(); clearInterval(heroInterval); });
+
+    // --- NAV TOGGLE ---
+    const btn = document.querySelector('.nav-toggle');
+    const nav = document.getElementById('main-nav');
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true' || false;
+      btn.setAttribute('aria-expanded', !expanded);
+      nav.classList.toggle('open');
+    });
+
+    // --- LIGHTBOX & GALLERY ---
+    const images = Array.from(document.querySelectorAll('#gallery img'));
+    const lightbox = document.getElementById('lightbox');
+    const lbImage = document.getElementById('lb-image');
+    const lbCaption = document.getElementById('lb-caption');
+    let activeIndex = 0;
+
+    function openLightbox(idx){
+      const img = images[idx];
+      lbImage.src = img.src;
+      lbImage.alt = img.alt || '';
+      lbCaption.textContent = img.alt || '';
+      lightbox.classList.add('open');
+      lightbox.setAttribute('aria-hidden', 'false');
+      activeIndex = idx;
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox(){
+      lightbox.classList.remove('open');
+      lightbox.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+    function showNext(){
+      activeIndex = (activeIndex + 1) % images.length;
+      openLightbox(activeIndex);
+    }
+    function showPrev(){
+      activeIndex = (activeIndex - 1 + images.length) % images.length;
+      openLightbox(activeIndex);
+    }
+    images.forEach((img, i) => {
+      img.addEventListener('click', () => openLightbox(i));
+    });
+    document.querySelector('.lb-close').addEventListener('click', closeLightbox);
+    document.querySelector('.lb-next').addEventListener('click', showNext);
+    document.querySelector('.lb-prev').addEventListener('click', showPrev);
+    // keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (!lightbox.classList.contains('open')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight') showNext();
+      if (e.key === 'ArrowLeft') showPrev();
+    });
+    // close clicking backdrop
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) closeLightbox();
+    });
+  </script>
+
+</body>
+</html>
